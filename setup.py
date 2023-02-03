@@ -64,6 +64,6 @@ if mode == '2':
     os.system('clear')
     time.sleep(3)
     os.system('python run2.py')
-if mode == '3'
+if mode == '3':
     os.system('docker run traffmonetizer/cli exit ')
     print('Restart Thanh cong')
