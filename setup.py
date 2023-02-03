@@ -53,6 +53,7 @@ print('SETUP THANH CONG !')
 os.system('clear')
 print('MODE 1: CHAY NHAP SERVER')
 print('MODE 2: CHAY KHONG CAN NHAP SERVER')
+print('MODE 3: RESTART')
 mode = input('Mode:')
 if mode == '1':
     os.system('clear')
@@ -63,3 +64,6 @@ if mode == '2':
     os.system('clear')
     time.sleep(3)
     os.system('python run2.py')
+if mode == '3'
+    os.system('docker run traffmonetizer/cli exit ')
+    print('Restart Thanh cong')
