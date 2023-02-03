@@ -6,6 +6,7 @@ def setup():
     os.system('sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"')
     os.system('sudo apt update')
     os.system('sudo apt install docker-ce')
+    os.system('docker pull traffmonetizer/cli:latest')
 def sever():
     global sever
     path = os.getcwd()
